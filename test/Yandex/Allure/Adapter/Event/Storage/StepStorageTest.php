@@ -3,8 +3,9 @@
 namespace Yandex\Allure\Adapter\Event\Storage;
 
 use Yandex\Allure\Adapter\Model\Step;
+use PHPUnit\Framework\TestCase;
 
-class StepStorageTest extends \PHPUnit_Framework_TestCase
+class StepStorageTest extends TestCase
 {
     const TEST_STEP_NAME = 'test-step';
 

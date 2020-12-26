@@ -3,8 +3,9 @@
 namespace Yandex\Allure\Adapter\Event;
 
 use Yandex\Allure\Adapter\Model\TestSuite;
+use PHPUnit\Framework\TestCase;
 
-class TestSuiteFinishedEventTest extends \PHPUnit_Framework_TestCase
+class TestSuiteFinishedEventTest extends TestCase
 {
     public function testEvent()
     {
